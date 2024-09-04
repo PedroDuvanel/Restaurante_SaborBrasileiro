@@ -1,0 +1,124 @@
+.header {
+    height: 40px;
+    background: rgb(57, 54, 54);
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+    gap: 8px;
+    justify-content: end;
+}
+
+.navbar-items {
+    list-style: none;
+    display: flex;
+    gap: 16px;    
+}
+
+.navbar-items a {
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 700; 
+    transition: color 0.3s; 
+}
+
+.navbar-items a:hover {
+    color: #ff9d00; 
+}
+
+.agendar {
+    display: flex; 
+    align-items: flex-start; 
+    padding: 20px; 
+    background-color:rgb(57, 54, 54);
+    color: white;
+}
+
+.agendar p {
+    margin: 0;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.agendar img {
+    max-width: 35%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.sobre_restaurante img {
+    max-width: 35%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.sobre_restaurante {
+    display: flex; 
+    align-items: flex-start; 
+    background-color: white;
+    padding: 20px;
+}
+
+.sobre_restaurante h1 {
+    margin-bottom: 10px;
+}
+
+.sobre_restaurante p {
+    margin: 0;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding-top: 90px;
+}
+
+.menu h1 {
+    margin-bottom: 20px;
+}
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.pedido {
+    background-color: midnightblue;
+    color: white;
+    height: 450px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.formulario {
+    margin-top: 100px;
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.summit {
+    background-color: #09040a; 
+    color: #fff; 
+    margin-top: 12px;
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size:12px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.summit:hover {
+    background-color: #0b0083; 
+    transform: scale(1.05); 
+}

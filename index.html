@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/global.css"/>
+    <title> Restaurante Sabor Brasileiro - Peça Online</title>
+</head>
+<body>
+<div class="container"> 
+    <header class="header"> 
+        <nav>
+            <ul class="navbar-items"> 
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#sobre_restaurante">Sobre Nós</a></li>
+                <li><a href="#pedido">Peça online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="agendar" class="agendar">
+        <h1>Experimente nossos pratos</h1>
+        <p>Bem-vindo ao Restaurante Sabor Brasileiro! Aqui, você vai se deliciar com uma verdadeira festa de sabores típicos do Brasil. Nossa equipe está dedicada a oferecer a você uma experiência gastronômica inesquecível, repleta de pratos autênticos e preparados com carinho. Aproveite a nossa seleção de receitas tradicionais, preparadas com ingredientes frescos e de qualidade. Sinta-se em casa e deixe-se levar pela rica culinária e hospitalidade brasileira. Bom apetite!
+        </p>    
+        <img src="./img/conceito-de-lazer-pessoas-alimentacao-e-ferias-casal-feliz-com-amigos-jantando-no-restaurante_380164-118836.avif">
+    </section>
+
+    <section id="sobre_restaurante" class="sobre_restaurante">
+        <h1>Sobre Nós:</h1>
+        <p> O Restaurante Sabor Brasileiro oferece uma experiência
+            gastronômica única, com pratos que celebram a culinária tradicional
+            brasileira. Visite-nos ou peça online!
+        </p>
+
+        <img src="./img/restaurante.jpg" alt="interior">
+    </section>
+
+    <section id="menu" class="menu">
+        <h1>Menu:</h1>
+        <h5>Nossa especialidade inclui Feijoada, Moqueca, Pão de Queijo, e muito mais!</h5>
+        <div class="opcoes">
+        <h3>Opção 1:</h3>
+        <p>Arroz com bife acebolado acompanhado de fritas e salada, Com 1 lata de frefrigerante a gosto do cliente.</p>
+
+        <h3>Opção 2:</h3>
+        <p>Feijoada acompanhada de arroz, fritas e salada, Com 1 lata de frefrigerante a gosto do cliente.</p>
+
+        <h3>Opção 3:</h3>
+        <p>Arroz com frango assado acompanhado de fritas e salada, Com 1 lata de frefrigerante a gosto do cliente.</p>
+        
+        <h3>Opção 4:</h3>
+        <p>Especialidade da casa (verificar disponibilidade)</p>
+    </div>
+    </section>
+
+    <section id="pedido" class="pedido">
+        <h1>Peça Online:</h1>
+        <h5>Escolha seus pratos favoritos e faça seu pedido online agora mesmo!</h5>
+        <div class="formulario">
+            <div class="input_wrapper"> 
+                <label for="nome">Nome :</label>
+                <input type="text" id="nome" name="name" placeholder="Digite o seu nome..." required>
+            </div>
+
+            <div class="input_wrapper"> 
+                <label for="sobrenome">Endereço :</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite o seu endereço..." required>
+            </div>
+
+            <div class="input_wrapper"> 
+                <label for="telefone">Telefone :</label>
+                <input type="tel" id="telefone" name="tel" placeholder="Digite o seu número..." required>
+            </div>
+
+            <div class="input_wrapper">
+                <label for="options">Pratos: </label>
+                <select id="options" name="options" required>
+                    <option value="prato1">Opção 1</option>
+                    <option value="prato2">Opção 2</option>
+                    <option value="prato3">Opção 3</option>
+                    <option value="prato4">Opção 4</option>
+                </select>
+            </div>
+            <div class="radio-wrapper">
+                <span>selecione o método de pagamento:<br></span>
+                <input type="radio" id="dinheiro" name="payment" value="money">
+                <label for="dinheiro">Dinheiro</label><br>
+            
+                <input type="radio" id="credito" name="payment" value="credit">
+                <label for="credito">Crédito</label><br>
+            
+                <input type="radio" id="debito" name="payment" value="debit">
+                <label for="debito">Débito</label>
+            </div>
+            <button class="summit" form="formulario">Fazer pedido</button>
+    </section>
+
+
+
+</div>
+</body>
+</html>
